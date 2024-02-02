@@ -18,9 +18,9 @@ const Navbar = () => {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await fetch('http://localhost:5000/api/v1/cryptos');
+                const response = await fetch('https://hodlinfo-five.vercel.app/api/v1/cryptos');
                 const result = await response.json();
-                console.log(result.data);
+                //  console.log(result.data);
                 if (result.success) {
                     setCryptoData(result?.data);
                 } else {
