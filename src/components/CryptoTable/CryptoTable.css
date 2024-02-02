@@ -1,0 +1,17 @@
+/* CryptoTable.css */
+.crypto-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.crypto-table th,
+.crypto-table td {
+  padding: 8px;
+  text-align: left;
+  background-color: #343a40;
+}
+
+.crypto-table th {
+  background-color: #191d28;
+}
